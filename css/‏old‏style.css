@@ -1,0 +1,568 @@
+﻿@font-face{
+	font-family: 'Oh_EitanFisch';
+	font-weight:'400'; /*(bold)*/
+	src: url(../fonts/Oh_EitanFisch/Dfus/Web/OHEitanFisch-Dfus.woff2) format('woff2'),
+		url(../fonts/Oh_EitanFisch/Dfus/Web/OHEitanFisch-Dfus.woff) format('woff');
+}
+body {
+    font-family: 'Oh_EitanFisch';
+  
+    background-image: url('תמונות חדשות/Slot-Machine-Game-Background-Mountains-Meadows-Clouds.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    left: 0;
+}
+
+#body1 {
+    background-image: url('רקע3.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    left: 0;
+}
+
+.img1 {
+    width: 926px;
+    height: 783px;
+}
+
+.bsd {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+#mag{
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    text-align: right;
+    position:absolute;
+    right: 5vw;
+    top:92vh;
+}
+.gusswho{
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 100px;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+}
+
+#div3 {
+    background-image: url('נסיונות/תמונה8.png');
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 76vh;
+}
+
+.td {
+
+}
+
+.homepagek {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 55px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.horaot {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 90px;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    /*margin-top:50px;*/
+}
+
+.how {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.p1 {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 30px;
+    font-weight:400;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.matara {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.p2 {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.goodluck {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 90px;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.pic {
+    width: 5vw;
+    height: 10vh;
+}
+
+#div4 {
+    position:absolute;
+}
+
+#ques {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Oh_EitanFisch';
+    position: absolute;
+    left: 8vw;
+    width: 100%;
+    cursor: pointer;
+}
+
+.wrapper {
+ padding-top: 10vh;
+ width: 35vw;
+    height: 15vh;
+    display: inline-block;
+}
+
+#picqu {
+    position: absolute;
+    left: 5vw;
+    width: 42vw;
+    z-index: -1;
+    top: 0;
+}
+
+#tpic {
+    width: 40vw;
+    height: 10vh;
+    position: absolute;
+    top: 5vh;
+    right: 5vw;
+}
+
+#div2 {
+    position: absolute;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url('נסיונות/תמונה18.png');
+    background-repeat: no-repeat;
+    top: 5vh;
+    right: 29vw;
+    width: 50vw;
+    height: 76vh;
+}                 
+
+#ss {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 10px;
+    font-weight: 100;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 20vh;
+}
+
+#sss {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 50px;
+    font-weight: 200;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 20vh;
+    left:40vw;
+}
+
+#ssss {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 50px;
+    font-weight: 200;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 20vh;
+    left: 40vw;
+}
+
+#pp {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+#yes {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 100px;
+    font-weight: 800;
+    color: greenyellow;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+ top:60vh;
+}
+
+#no {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 100px;
+    font-weight: 800;
+    color: red;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 60vh;
+    right:15vw;
+}
+
+#name 
+{
+}
+
+#fromm {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 57vh;
+    right: 47vw;
+}
+
+.btt {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 30px;
+    font-weight: 200;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 95vh;
+    right:54vw;
+    cursor: pointer;
+    z-index: 10;
+}
+
+bt {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 30px;
+    font-weight: 200;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 70vh;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#prev {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 20px;
+    font-weight: 600;
+    width: 8vw;
+    color: black;
+    text-align: center;
+    margin-right: 27vw;
+    display: inline-block;
+    cursor: pointer;
+    top: 5vh;
+    right: -42vw;
+}
+
+#clock {
+    position: absolute;
+    margin-top: 5.8vh;
+    width: 20%;
+    right: 79vw;
+    top: 3vh;
+    color: black;
+    z-index: 10;
+    font-size: 100px;
+    font-family: 'Oh_EitanFisch';
+}
+
+#pic {
+    position: absolute;
+    right: 129vh;
+}
+
+#gameover {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    z-index: 40;
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    background-image: url('גיימאובר.png');
+}
+
+#wow {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    z-index: 40;
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    background-image: url('וואו2.png');
+}
+
+.bt2 
+{
+    position:absolute;
+    top:70vh;
+    left:45vw;
+
+}
+
+.bt1{
+    position: absolute;
+    top: 40vh;
+    left:17vw;
+    width:7vw;
+}
+
+#next {
+    text-decoration: none;
+    font-family: 'Oh_EitanFisch';
+    font-size: 20px;
+    font-weight: 600;
+    width: 8vw;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    top: 5vh;
+    right: 25vw;
+}
+
+#guss {
+    position: absolute;
+    right: 16vw;
+    top: 5vw;
+}
+
+#askpic {
+    position: absolute;
+    right: 20vw;
+    top: 30vw;
+}
+
+#startpic {
+    position: absolute;
+    right: 40vw;
+    top: 30vw;
+}
+
+#si {
+    position: absolute;
+    right: 60vw;
+    top: 30vw;
+}
+
+#ci {
+    position: absolute;
+    right: 47vw;
+    top: 13vw;
+    font-family: 'Oh_EitanFisch';
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+}
+
+@-webkit-keyframes button {
+    100% {
+        width: 6vw;
+        height: 10vh;
+    }
+}
+
+.animb {
+    visibility: visible;
+    -webkit-animation-name: button; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.1s;
+}
+
+.animny {
+    visibility: visible;
+    -webkit-animation-name: noyes; 
+    -webkit-animation-duration: 3s;
+}
+
+#home 
+{
+    position:absolute;
+    right:2vw;
+    top:70vh;
+}
+
+@-webkit-keyframes noyes {
+    10% {
+        opacity: 0.9
+    }
+    20% {
+        opacity: 0.1;
+    }
+    30% {
+        opacity: 0.9;
+    }
+    40% {
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 0.9;
+    }
+    60% {
+        opacity: 0.1
+    }
+    70% {
+        opacity: 0.9;
+    }
+    80% {
+        opacity: 0.1;
+    }
+    90% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0.1;
+    }
+}
+
+/*@font-face {
+    font-family: neon;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}*/
+
+.container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.neon {
+    font-family: 'Oh_EitanFisch';
+    color: #FB4264;
+    font-size: 9vw;
+    line-height: 9vw;
+    text-shadow: 0 0 3vw #F40A35;
+    position:absolute;
+    top:50vh;
+    right:5vw;
+}
+
+.flux {
+    font-family: 'Oh_EitanFisch';
+    color: #426DFB;
+    font-size: 9vw;
+    line-height: 9vw;
+    text-shadow: 0 0 3vw #2356FF;
+    position: absolute;
+    top: 50vh;
+    right: 20vw;
+}
+
+.neon.active {
+    animation: neon 1s ease infinite;
+    -moz-animation: neon 1s ease infinite;
+    -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+    0%, 100% {
+        text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+        color: #FED128;
+    }
+
+    50% {
+        text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+        color: #806914;
+    }
+}
+
+.flux.active {
+    animation: flux 2s linear infinite;
+    -moz-animation: flux 2s linear infinite;
+    -webkit-animation: flux 2s linear infinite;
+    -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+    0%, 100% {
+        text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+        color: #28D7FE;
+    }
+
+    50% {
+        text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+        color: #146C80;
+    }
+}
+
+b {
+    animation: blur 1s ease infinite;
+    -moz-animation: blur 1s ease infinite;
+    -webkit-animation: blur 1s ease infinite;
+}
+
+@keyframes blur {
+    0%, 100% {
+        background-color:red;
+    }
+
+    50% {
+        background-color: blue;
+    }
+}

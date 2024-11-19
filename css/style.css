@@ -1,0 +1,162 @@
+﻿#title{
+  padding: 5% 0 0 0;
+}
+#prev,
+#next {
+  width: 10%;
+  cursor: pointer;
+
+}
+#rectangle {
+  position: relative;
+  z-index: 1;
+  width: 70%;
+  height: auto;
+  cursor: pointer;
+
+}
+#button_questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 25vw;
+}
+#allCharactersImages,
+#button_questions {
+  padding: 0;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 40vw;
+}
+.imgCharacters {
+  width: 18%;
+  height: auto;
+  cursor: pointer;
+  padding: 1%;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+@font-face {
+  font-family: "Oh_EitanFisch";
+  src: url(../fonts/Oh_EitanFisch/Dfus/Desktop/OHEitanFisch-Dfus.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Oh_EitanFisch", sans-serif;
+  background-attachment: fixed;
+  background-size: cover; /* התמונה תתפרש על כל הרקע */
+  background-repeat: no-repeat; /* לא חוזרת על עצמה */
+  background-position: center; /* התמונה תתמקד במרכז */
+
+}
+.bodyhome {
+  background-image: url(../images/backgrounds/homepage.jpg);
+
+}
+.bodyrecord {
+  background-image: url(../images/backgrounds/records.jpg);
+  background-position:top; /* התמונה תתמקד למעלה */
+
+
+}
+
+.bodyinstructions {
+  background-image: url(../images/backgrounds/instructions.jpg);
+  background-position:top; /* התמונה תתמקד למעלה */
+
+
+}
+#bodygame {
+
+  background-image: url(../images/backgrounds/game.jpg);
+
+}
+.rand{
+  position: fixed;
+  top: 4%;
+  right: 2%;
+  width: 10%; /* או גודל מותאם */
+  height: auto; /* לשמור על יחס הגובה-רוחב של התמונה */
+  border-radius: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-align: left;
+  size: 15vw;
+}
+.img {
+  width: 8vw;
+  height: 8vw;
+  cursor: pointer;
+  padding-top: 2vw;
+}
+
+
+
+#timer {
+  color:white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+#ques {
+  position: absolute;
+  z-index: 2;
+  right: 45%;
+  font-size: x-large;
+  direction: rtl;
+}
+#yesorno
+{
+  width:10%;
+  right: 45%;
+
+}
+#woworoops{
+  width:20%;
+  right: 45%;
+}
+#imageContainer
+{
+}
+
+.instructions{
+  text-align: center;
+  direction:rtl;
+  
+  font-size: smaller;
+}
+
+#recordsContainer {
+  text-align: center;
+  direction: rtl;
+  padding-top: 11%;
+}
+.new-record {
+  font-size: 1.5em; 
+  font-weight: bold;
+  color: rgb(112, 56, 94);
+  text-align: center;
+  direction: rtl;
+ 
+}
+
